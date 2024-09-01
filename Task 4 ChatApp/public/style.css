@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-color: rgb(174, 170, 178);
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.title{
+    margin: 2% 0%;
+    color: rgb(61, 31, 89);
+}
+.main{
+    border: 6px solid rgb(96, 77, 117);
+    border-radius: 24px;
+    overflow: hidden;
+}
+.name{
+    color: rgb(61, 31, 89);
+    display: flex;
+    padding: 2% 3%;
+    font-size: 32px;
+}
+.name>span{
+    color: rgb(61, 31, 89);
+}
+.name-input{
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0% 4%;
+    color: rgb(61, 31, 89);
+    background-color:rgb(174, 170, 178) ;
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: rgb(183, 180, 186);
+}
+.message-left,.message-right{
+    padding: 3% 3%;
+    margin:12px;
+    list-style: none;
+    font-size: 19px;
+    max-width: 250px;
+    word-wrap: break-word;
+}
+.message-left{
+    align-self: flex-start;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0px 0px 14px rgb(61, 31, 89);
+    color: rgb(61, 31, 89);
+}
+.message-right{
+    align-self: flex-end;
+    background-color: rgb(61, 31, 89);
+    border-radius: 24px;
+    color:white;
+    box-shadow: 0px 0px 14px rgb(61, 31, 89);
+}
+.message-left>p>span,
+.message-right>p>span{
+display: block;
+font-style: italic;
+font-size: 12px;
+margin-top: 2%;
+}
+.feedback{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(61, 31, 89);
+    text-align: center;
+}
+.message-form{
+    display: flex;
+    justify-content: space-around;
+    width:400px;
+}
+.message-input{
+    flex-grow: 1;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 2% 2%;
+}
+.send-button{
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 0px 1%;
+    background-color: white;
+    color: rgb(61, 31, 89);
+    font-weight: 600;
+    transition: 0.5s ease !important;
+}
+.send-button:hover{
+background-color:rgb(61, 31, 89) ;
+color:white;
+
+}
+.v-divider{
+    height: 40px;
+    width:2px;
+    background-color: rgb(96, 77, 117);
+}
+.clients-total{
+    margin: 1% 0%;
+    color: rgb(61, 31, 89);
+}
